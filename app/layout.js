@@ -1,8 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { personalInfo, projects, experience, tools } from '@/lib/constants';
 import Header from '@/components/layout/Header';
-import Sidebar from '@/components/layout/Sidebar';
+import AnimatedLayout from '@/components/layout/AnimatedLayout';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,11 +30,9 @@ export default function RootLayout({ children }) {
 
           {/* Main Layout: Sidebar + Content */}
           <div className="container mx-auto px-4 md:px-8 max-w-6xl">
-            <div className="flex flex-row max-md:flex-col gap-8 md:gap-20">
-              {/* Sidebar */}
-              <Sidebar />
+            <AnimatedLayout>
               {children}
-            </div>
+            </AnimatedLayout>
           </div>
         </div>
       </body>
