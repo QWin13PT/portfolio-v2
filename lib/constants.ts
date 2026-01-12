@@ -23,6 +23,23 @@ export const personalInfo: PersonalInfo = {
     },
     // Add more social links as needed
   ],
+  stats: [
+    {
+      value: 6,
+      suffix: '+',
+      label: 'Years Coding',
+    },
+    {
+      value: 9,
+      suffix: '+',
+      label: 'Projects Built',
+    },
+    {
+      value: 32,
+      suffix: '',
+      label: 'Tabs Open',
+    },
+  ],
 };
 
 export const projects: Project[] = [

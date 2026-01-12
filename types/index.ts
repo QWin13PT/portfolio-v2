@@ -4,6 +4,12 @@ export interface SocialLink {
   icon?: string;
 }
 
+export interface Stat {
+  value: number;
+  suffix?: string;
+  label: string;
+}
+
 export interface PersonalInfo {
   name: string;
   title: string;
@@ -13,6 +19,7 @@ export interface PersonalInfo {
   tagline?: string;
   photo?: string;
   socialLinks?: SocialLink[];
+  stats?: Stat[];
 }
 
 export interface Project {

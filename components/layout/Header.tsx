@@ -1,5 +1,5 @@
 import { HugeiconsIcon } from '@hugeicons/react';
-import { Home02Icon, UserIcon, Briefcase02Icon, Settings01Icon, FileDownloadIcon } from '@hugeicons-pro/core-stroke-standard';
+import { Home02Icon, UserIcon, Briefcase02Icon, DiplomaIcon, FileDownloadIcon } from '@hugeicons-pro/core-stroke-standard';
 import Button from '@/components/ui/Button';
 
 export default function Header() {
@@ -34,12 +34,12 @@ export default function Header() {
           hoverSlide={true}
         />
         <Button
-          href="#settings"
+          href="#education"
           variant="transparent"
           size="sm"
           className="aspect-square !p-2"
-          icon={<HugeiconsIcon icon={Settings01Icon} className="w-5 h-5" />}
-          ariaLabel="Settings"
+          icon={<HugeiconsIcon icon={DiplomaIcon} className="w-5 h-5" />}
+          ariaLabel="Education"
           hoverSlide={true}
         />
         <Button
