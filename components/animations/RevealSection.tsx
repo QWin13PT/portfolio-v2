@@ -20,7 +20,7 @@ export default function RevealSection({ children, className = '', delay = 0 }: R
         delay,
         ease: [0.25, 0.1, 0.25, 1]
       }}
-      className={className}
+      className={`${className} overflow-x-hidden w-full`}
     >
       {children}
     </motion.div>

@@ -40,7 +40,7 @@ export default function AboutSection() {
   return (
     <RevealSection>
       <section className="mb-12" id="about">
-        <h2 className="text-7xl font-bold text-foreground mb-6 uppercase">
+        <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 uppercase">
           Hello <br />There
         </h2>
 
@@ -73,7 +73,6 @@ export default function AboutSection() {
                 ease: [0.25, 0.1, 0.25, 1],
               }}
             >
-              {/* Accent glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
               <div className="relative z-10">

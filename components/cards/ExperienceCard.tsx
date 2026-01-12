@@ -47,7 +47,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
 
 
 
-          {/* Technologies */}
+          {/* Technologies 
           {technologies && technologies.length > 0 && (
             <div className="flex flex-wrap gap-2 mt-4">
               {technologies.map((tech) => (
@@ -59,7 +59,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
                 </span>
               ))}
             </div>
-          )}
+          )}*/}
         </div>
       </div>
     </article>

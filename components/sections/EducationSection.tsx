@@ -14,7 +14,7 @@ export default function EducationSection() {
   return (
     <RevealSection>
       <section className="mb-12" id="education">
-        <h2 className="text-7xl font-bold text-foreground mb-6 uppercase">Academic <br />Background</h2>
+        <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 uppercase">Academic <br />Background</h2>
         
         {/* Education List */}
         <div className="flex flex-col gap-2">

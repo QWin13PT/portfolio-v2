@@ -26,7 +26,7 @@ export default function ProjectsSection() {
     <LayoutGroup>
       <RevealSection>
         <section className="mb-12" id="projects">
-          <h2 className="text-7xl font-bold text-foreground mb-6 uppercase">
+          <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 uppercase">
             Featured <br />
             Work
           </h2>

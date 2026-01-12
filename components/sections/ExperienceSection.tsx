@@ -14,7 +14,7 @@ export default function ExperienceSection() {
   return (
     <RevealSection>
       <section className="mb-12" id="experience">
-        <h2 className="text-7xl font-bold text-foreground mb-6 uppercase">Work <br />Experience</h2>
+        <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 uppercase">Work <br />Experience</h2>
         
         {/* Experience List */}
         <div className="flex flex-col gap-2">
