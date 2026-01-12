@@ -20,6 +20,10 @@ export interface Project {
   title: string;
   smallDescription: string;
   description: string;
+  story?: string;
+  releaseDate?: string;
+  awards?: string[];
+  workInProgress?: boolean;
   background?: string;
   images?: string[];
   technologies: string[];

@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 import { tools } from '@/lib/constants';
 import SkillCard from '@/components/cards/SkillCard';
 import Accordion from '@/components/ui/Accordion';
-import RevealSection from '@/components/ui/RevealSection';
+import RevealSection from '@/components/animations/RevealSection';
 
 export default function SkillsSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

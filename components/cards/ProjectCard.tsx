@@ -10,7 +10,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project, onClick }: ProjectCardProps) {
-  const { title, smallDescription, background, technologies, category } = project;
+  const { title, smallDescription, background, technologies, category, workInProgress } = project;
 
   return (
     <motion.article
@@ -42,6 +42,12 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
           >
             {title}
           </motion.h3>
+          {/* WIP Badge */}
+          {workInProgress && (
+            <span className="text-xs px-3 py-1 font-semibold bg-accent/20 text-accent rounded-full mb-2">
+              WIP
+            </span>
+          )}
           {/* Categories */}
           {category && category.length > 0 && (
             <motion.div
@@ -66,7 +72,7 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
         {/* Technologies */}
         {technologies && technologies.length > 0 && (
           <div className="flex flex-wrap gap-1 items-center">
-            <span className="text-sm text-secondary">Stack:</span>
+            <span className="text-sm text-secondary uppercase font-semibold">Stack:</span>
             {technologies.map((tech, index) => (
               <span key={tech} className="text-sm text-secondary">
                 {tech}

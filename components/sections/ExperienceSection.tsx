@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { experience } from '@/lib/constants';
 import ExperienceCard from '@/components/cards/ExperienceCard';
-import RevealSection from '@/components/ui/RevealSection';
+import RevealSection from '@/components/animations/RevealSection';
 
 export default function ExperienceSection() {
   // Sort experiences by start date (most recent first)

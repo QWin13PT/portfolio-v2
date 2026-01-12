@@ -6,7 +6,7 @@ import { projects } from '@/lib/constants';
 import { Project } from '@/types';
 import ProjectCard from '@/components/cards/ProjectCard';
 import ProjectModal from '@/components/ui/ProjectModal';
-import RevealSection from '@/components/ui/RevealSection';
+import RevealSection from '@/components/animations/RevealSection';
 
 export default function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
