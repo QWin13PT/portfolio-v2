@@ -29,10 +29,12 @@ export const projects: Project[] = [
   {
     id: 'svelta',
     title: 'Svelta',
+    smallDescription: 'A wellness app for women',
     description:
-      'A wellness app for women',
-    image: '/projects/svelta/background.jpg',
-    technologies: ['React Native', 'Expo', 'Supabase', 'Next.js, Figma'],
+      'Svelta is a comprehensive wellness application designed specifically for women, focusing on holistic health tracking, personalized workout routines, and nutrition guidance. The app features an intuitive dashboard for tracking daily progress, goal setting, and community engagement. Built with a mobile-first approach using React Native and Expo, it delivers a seamless experience across iOS and Android platforms.',
+    background: '/projects/svelta/background.jpg',
+    images: [],
+    technologies: ['React Native', 'Expo', 'Supabase', 'Next.js', 'Figma'],
     category: ['App', 'Dashboard'],
     liveUrl: 'https://www.svelta.app',
     featured: true,
@@ -40,10 +42,12 @@ export const projects: Project[] = [
   {
     id: 'forge',
     title: 'Forge',
+    smallDescription: 'A fitness and workout app',
     description:
-      'A fitness and workout app',
-    image: '/projects/forge/background.jpg',
-    technologies: ['React Native', 'Expo', 'Supabase', 'Next.js, Figma'],
+      'Forge is a powerful fitness application that helps users build and maintain their workout routines. It features customizable workout plans, exercise libraries with video demonstrations, progress tracking with detailed analytics, and social features for motivation. The app includes an admin dashboard for content management and user analytics, built with Next.js and Supabase for real-time data synchronization.',
+    background: '/projects/forge/background.jpg',
+    images: [],
+    technologies: ['React Native', 'Expo', 'Supabase', 'Next.js', 'Figma'],
     category: ['App', 'Dashboard'],
     liveUrl: 'https://www.getforge.app',
     featured: true,
@@ -51,20 +55,24 @@ export const projects: Project[] = [
   {
     id: 'otlyn',
     title: 'Otyln',
-    description: 'A Drag&Drop dashboard to manage BASE tokens',
-    image: '/projects/otlyn/background.jpg',
+    smallDescription: 'A Drag&Drop dashboard to manage BASE tokens',
+    description:
+      'Otlyn is an innovative drag-and-drop dashboard designed for managing BASE blockchain tokens. Users can create custom layouts to monitor their portfolio, track token prices, and execute transactions. The interface features smooth animations powered by Framer Motion, real-time data updates, and a modular widget system that allows users to personalize their dashboard experience.',
+    background: '/projects/otlyn/background.jpg',
+    images: [],
     technologies: ['Next.js', 'Tailwind CSS', 'Node.js', 'Framer Motion'],
     category: ['Dashboard'],
     liveUrl: 'https://otlyn.xyz',
     featured: true,
   },
-  
   {
     id: 'xrpldash',
     title: 'XRPLDash',
+    smallDescription: 'A dashboard to manage XRPL assets',
     description:
-      'A dashboard to manage XRPL assets',
-    image: '/projects/xrpldash/background.jpg',
+      'XRPLDash is a comprehensive dashboard for managing assets on the XRP Ledger. It provides users with real-time portfolio tracking, transaction history, NFT management, and trust line configuration. The dashboard features an elegant dark theme design, interactive charts for asset visualization, and seamless wallet integration for secure asset management.',
+    background: '/projects/xrpldash/background.jpg',
+    images: [],
     technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'Figma'],
     category: ['Dashboard'],
     featured: true,
@@ -72,9 +80,11 @@ export const projects: Project[] = [
   {
     id: 'greyhound-staking',
     title: 'Greyhound Staking',
+    smallDescription: 'A NFT Staking platform for the $GREYHOUND token',
     description:
-      'A NFT Staking platform for the $GREYHOUND token',
-    image: '/projects/greyhound-staking/background.jpg',
+      'Greyhound Staking is a decentralized NFT staking platform built for the $GREYHOUND token ecosystem. Users can stake their NFTs to earn rewards, view their staking positions, and claim accumulated tokens. The platform features a secure smart contract integration, real-time reward calculations, and a user-friendly interface with detailed staking analytics.',
+    background: '/projects/greyhound-staking/background.jpg',
+    images: [],
     technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
     category: ['Dashboard'],
     liveUrl: 'https://staking.greyhoundcoin.net/',
@@ -83,9 +93,11 @@ export const projects: Project[] = [
   {
     id: 'greyhound',
     title: 'Greyhound',
+    smallDescription: 'A landing page for the $GREYHOUND token',
     description:
-      'A landing page for the $GREYHOUND token',
-    image: '/projects/greyhound/background.jpg',
+      'Greyhound is a modern landing page designed for the $GREYHOUND cryptocurrency token. The page showcases the token\'s features, roadmap, team information, and community links. Built with performance in mind, it features smooth scroll animations, responsive design, and optimized loading times to provide visitors with an engaging first impression of the project.',
+    background: '/projects/greyhound/background.jpg',
+    images: [],
     technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
     category: ['Landing Page'],
     liveUrl: 'https://greyhoundcoin.net/',

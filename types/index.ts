@@ -18,8 +18,10 @@ export interface PersonalInfo {
 export interface Project {
   id: string;
   title: string;
+  smallDescription: string;
   description: string;
-  image?: string;
+  background?: string;
+  images?: string[];
   technologies: string[];
   category: string[];
   liveUrl?: string;
