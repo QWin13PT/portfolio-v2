@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/layout/Header';
 import AnimatedLayout from '@/components/layout/AnimatedLayout';
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   variable: "--font-inter",
@@ -39,6 +40,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Analytics />
       <body className={`${inter.variable} antialiased overflow-x-hidden w-screen`}>
         <div className="min-h-screen bg-background ">
           {/* Header */}
